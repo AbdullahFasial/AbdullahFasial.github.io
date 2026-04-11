@@ -112,6 +112,8 @@ article {
     padding: 0.8rem;
     border: 1px solid #e1e1e1;
     background-color: #fcfcfc;
+    width: 100%;
+    min-height: 100px;
 }
 
 footer {
