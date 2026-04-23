@@ -34,16 +34,16 @@
 
         <section id="Contact-Me">
             <h3>Contact Me</h3>
-            <form>
+            <form onsubmit="return validateForm()">
 
-                <label>Name:</label><br>
-                <input required><br><br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" required><br><br>
 
-                <label>Email:</label><br>
-                <input type="email" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" required><br><br>
 
-                <label>Message:</label><br>
-                <textarea rows="10" cols="50" required></textarea><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" rows="10" cols="50" required></textarea><br><br>
 
                 <input type="submit" value="Send">
 
@@ -59,7 +59,7 @@
         <a href="#Contact-Me">Back to Contact Me</a><br>
         <p>© 2026 Abdullah Alnafa</p>
     </footer>
-
+    <script src="scripts.js"></script>
 </body>
 
 </html>

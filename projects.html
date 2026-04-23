@@ -34,7 +34,7 @@
         <article id="Data-Cleaner">
             <h2>Data Cleaner Domain: Data Science, Data Analysis, and API-Based Systems | Project Date: <time
                     datetime="2025-07">Jul 2025</time> - <time datetime="2025-08">Aug 2025</time></h2>
-            <p>Developed a data processing system that accepts single or multiple Excel files containing grocery product
+            <p id="data-cleaner-desc">Developed a data processing system that accepts single or multiple Excel files containing grocery product
                 data.<br>
                 Automated data cleaning, standardization, and normalization by handling missing values, duplicates, and
                 inconsistent schemas.<br>
@@ -42,28 +42,34 @@
                 data workflows.<br>
                 Delivered structured, analysis-ready outputs in a standardized format for downstream systems.
             </p>
+
+            <button onclick="toggleDescription('data-cleaner-desc', this)">Hide Description</button>
         </article>
 
         <article id="SANAD">
             <h2>SANAD | Domain: Data Science, Decision Support Systems, and Financial Analytics | Project Date: <time
                     datetime="2025-08">Aug 2025</time> - Present</h2>
-            <p>Built a decision-support that profiles users using 14 financial and risk-related inputs to recommend
+            <p id="sanad-desc">Built a decision-support that profiles users using 14 financial and risk-related inputs to recommend
                 suitable investment paths.<br>
                 Implemented a scoring and ranking logic to generate personalized investment recommendations aligned with
                 user constraints.<br>
                 Designed the system for API integration to support automated workflows and web-based user interaction.
             </p>
+
+            <button onclick="toggleDescription('sanad-desc', this)">Hide Description</button>
         </article>
 
         <article id="Car-Price-and-Transmission-Type-Prediction">
             <h2>Car Price and Transmission Type Prediction | Domain: Data Science, Predictive Modeling, Regression &
                 Classification, and Data Analysis | Project Date: <time datetime="2025-08">Aug 2025</time></h2>
-            <p>Developed regression and classification models to predict used car prices and classify transmission types
+            <p id="car-project-desc">Developed regression and classification models to predict used car prices and classify transmission types
                 using vehicle data.<br>
                 Applied EDA, feature engineering, encoding, scaling, and K-Fold Cross-Validation to ensure model
                 performance and generalization.<br>
                 Evaluated models using standard regression and classification metrics and interpreted feature impact.
             </p>
+
+            <button onclick="toggleDescription('car-project-desc', this)">Hide Description</button>
         </article>
 
 
@@ -78,7 +84,7 @@
         <a href="#Car-Price-and-Transmission-Type-Prediction">Back to Car Price and Transmission Type Prediction</a><br>
         <p>© 2026 Abdullah Alnafa</p>
     </footer>
-
+    <script src="scripts.js"></script>
 </body>
 
 

@@ -152,3 +152,17 @@ blockquote {
     background-color: #6ca7ff;
     padding: 0.2rem;
 }
+
+button {
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    margin-top: 0.6rem;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #365682;
+}
